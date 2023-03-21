@@ -1,0 +1,25 @@
+{
+  "_id": "1",
+  "name": "Template One",
+  "nodes": [
+    {
+      "id": "0",
+      "data": {"id": "0", "label": "Skills"},
+      "position": {"x": 153.18770788614574, "y": 112.12944943670388}
+    },
+    {
+      "id": "1",
+      "data": {"id": "1", "label": "ReactJS"},
+      "position": {"x": 69.47247183519377, "y": 208.94174155055813}
+    },
+    {
+      "id": "2",
+      "data": {"id": "2", "label": "Angular"},
+      "position": {"x": 240.5877337910602, "y": 213.26895076892822}
+    }
+  ],
+  "edges": [
+    {"id": "e0-1", "source": "0", "target": "1"},
+    {"id": "e0-2", "source": "0", "target": "2"}
+  ]
+}

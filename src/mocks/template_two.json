@@ -1,0 +1,47 @@
+{
+  "_id": "2",
+  "name": "Template Two",
+  "nodes": [
+    {
+      "id": "0",
+      "data": {"id": "0", "label": "Skills"},
+      "position": {"x": 178.35685048363246, "y": 40.657951254297274}
+    },
+    {
+      "id": "1",
+      "data": {"id": "1", "label": "ReactJS"},
+      "position": {"x": 107.3795175500959, "y": 116.47152397329677}
+    },
+    {
+      "id": "2",
+      "data": {"id": "2", "label": "Angular"},
+      "position": {"x": 270.4538910209831, "y": 115.62959059418023}
+    },
+    {
+      "id": "5",
+      "type": "default",
+      "position": {"x": 33.90006216537358, "y": 194.09559021257303},
+      "data": {"id": "5", "label": "Ruby"}
+    },
+    {
+      "id": "4",
+      "type": "default",
+      "position": {"x": 342.5819621480919, "y": 193.2675538554308},
+      "data": {"id": "4", "label": "Python"}
+    },
+    {
+      "id": "3",
+      "type": "default",
+      "position": {"x": 169.12851054353956, "y": 265.0612010427456},
+      "data": {"id": "3", "label": "VueJS"}
+    }
+  ],
+  "edges": [
+    {"id": "e0-1", "source": "0", "target": "1"},
+    {"id": "e0-2", "source": "0", "target": "2"},
+    {"id": "e2-4", "source": "2", "target": "4"},
+    {"id": "e1-5", "source": "1", "target": "5"},
+    {"id": "e5-3", "source": "5", "target": "3"},
+    {"id": "e4-3", "source": "4", "target": "3"}
+  ]
+}
